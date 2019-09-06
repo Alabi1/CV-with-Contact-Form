@@ -1,0 +1,160 @@
+*{
+	margin : 0;
+	padding: 0;
+}
+
+body{
+	text-align: center;
+	width:100%;
+	height:880px;
+	font-family:  monospace;
+	font-size:10px;
+}
+
+#head{
+	background:black;
+	color:#f4f4f4;
+	height:100px;
+	text-align: left;
+}
+
+#head img{
+	float:left;
+	border-radius:100px;
+	margin:10px 30px 0px;
+}
+
+#title{
+	font-size: 1.2em;
+	padding-top:30px;
+	float:left;
+}
+
+
+#head ul{
+	float:right;
+	list-style:none;
+	padding-top:40px;
+	padding-right:30px;
+}
+
+.border{
+	font-size:20px;
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	
+}
+
+.border:before, .border:after{
+	content:"";
+	flex:1 1;
+	border-bottom: 3px solid black;
+	margin:auto;
+	
+}
+
+.pro{
+	text-align:left;
+	
+	padding:10px 20px 5px;
+}
+
+#bio{
+	height:50px;
+	text-align:left;
+	
+	padding:10px 20px 5px;
+}
+
+#data{
+	display:block;
+	overflow:hidden;
+	float:left;
+	list-style: none;
+	
+}
+
+#data2{
+	display:block;
+	overflow:hidden;
+	float:left;
+	list-style: none;
+	margin-left:310px;
+}
+
+#data3{
+	display:block;
+	overflow:hidden;
+	float:right;
+	list-style: none;
+}
+
+.work{
+	text-align:left;
+	padding:10px 20px 0px;
+	float:left;
+	width:30%;
+	
+
+}
+
+.ul{
+	float:left;
+	width:40%;
+	padding-top:10px;
+	text-align:left;
+
+}
+
+.ex{
+	height:100px;
+}
+
+.xe{
+	height:30px;
+}
+
+.skill{
+	float:right;
+	text-align:left;
+	padding-right:20px;
+
+}
+
+progress{
+	width:200px;
+	height:30px;
+}
+
+
+.contact{
+	border:2px groove black  ;
+	width:30%;
+	text-align: left;
+	float: right;
+}
+
+.contact h1{
+	text-align: center;
+}
+
+
+input, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 1px; 
+  resize: vertical;
+ 
+}
+	
+
+
+
+
+
+
